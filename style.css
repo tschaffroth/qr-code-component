@@ -29,7 +29,13 @@ body {
   margin-top: 16rem;
 
   border-radius: 20px;
-  box-shadow: 0 18px 50px #a5b0c277;
+
+  /* horizontal offset, 
+  vertical offset, 
+  blur (softness of shadow), 
+  spread (size of shadow),
+  color */
+  box-shadow: 0 10px 15px 0px #a5b0c277;
 }
 
 .card-img {
